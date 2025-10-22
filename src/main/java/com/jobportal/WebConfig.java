@@ -13,7 +13,7 @@ public class WebConfig {
 	            @Override
 	            public void addCorsMappings(CorsRegistry registry) {
 	                registry.addMapping("/**")
-	                    .allowedOrigins("https://job-portal-backend-khbn.onrender.com")
+	                    .allowedOrigins("https://job-portal-616f.onrender.com")
 	                    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 	                    .allowedHeaders("*")
 	                    .allowCredentials(true);
